@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      # 通过spring.cloud.config.server.git.uri指定配置信息存储的git地址
+      server.git.uri: https://github.com/wanglingfeng/config-repo
